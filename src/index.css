@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+/* Global surface + typography */
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-slate-950 text-white antialiased; }
+a { @apply underline-offset-2; }
